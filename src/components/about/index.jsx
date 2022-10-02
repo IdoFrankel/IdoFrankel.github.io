@@ -44,10 +44,10 @@ const About = ({ loading }) => {
                     easier integration and build, parallelizing testing
                     components, and designing a web application (Vue.js). Before
                     the Technion, I was a FullStack web developer (mainly
-                    Angular Framework) in the IAF OFEK-324 unit for three years.
-                    During that time I had the opportunity to develop monitoring
-                    and management systems, one of which was awarded a citation
-                    by OFEK-324 commander.
+                    Angular Framework) in the IAF&apos;s OFEK-324 unit for three
+                    years. During that time I had the opportunity to develop
+                    monitoring and management systems, one of which was awarded
+                    a citation by OFEK-324 commander.
                   </div>
                 )}
               </div>
