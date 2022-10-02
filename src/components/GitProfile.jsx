@@ -37,7 +37,7 @@ const GitProfile = ({ config }) => {
   const [theme, setTheme] = useState(null);
   const [loading, setLoading] = useState(true);
   const [profile, setProfile] = useState(null);
-  const [repo, setRepo] = useState(null);
+  // const [repo, setRepo] = useState(null);
 
   useEffect(() => {
     if (sanitizedConfig) {
