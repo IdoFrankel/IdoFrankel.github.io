@@ -10,7 +10,7 @@ import Experience from './experience';
 import Education from './education';
 // import Project from './project';
 // import Blog from './blog';
-import About from './about'
+import About from './about';
 
 import {
   genericError,
