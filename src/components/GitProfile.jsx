@@ -8,8 +8,10 @@ import Details from './details';
 import Skill from './skill';
 import Experience from './experience';
 import Education from './education';
-import Project from './project';
-import Blog from './blog';
+// import Project from './project';
+// import Blog from './blog';
+import About from './about';
+
 import {
   genericError,
   getInitialTheme,
@@ -171,30 +173,38 @@ const GitProfile = ({ config }) => {
                         loading={loading}
                         skills={sanitizedConfig.skills}
                       />
-                      <Experience
-                        loading={loading}
-                        experiences={sanitizedConfig.experiences}
-                      />
-                      <Education
-                        loading={loading}
-                        education={sanitizedConfig.education}
-                      />
+
                     </div>
                   </div>
                   <div className="lg:col-span-2 col-span-1">
                     <div className="grid grid-cols-1 gap-6">
-                      <Project
+                    
+                    <About 
+                      loading={loading}
+                    />
+                   
+                    <Experience
+                        loading={loading}
+                        experiences={sanitizedConfig.experiences}
+                      />
+                    <Education
+                        loading={loading}
+                        education={sanitizedConfig.education}
+                      />
+                    </div>
+                    
+                    {/* <Project
                         repo={repo}
                         loading={loading}
                         github={sanitizedConfig.github}
                         googleAnalytics={sanitizedConfig.googleAnalytics}
                       />
-                      <Blog
+                    <Blog
                         loading={loading}
                         googleAnalytics={sanitizedConfig.googleAnalytics}
                         blog={sanitizedConfig.blog}
-                      />
-                    </div>
+                      /> */}
+
                   </div>
                 </div>
               </div>
