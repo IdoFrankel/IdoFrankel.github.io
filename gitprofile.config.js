@@ -88,7 +88,6 @@ const config = {
 
     // Available themes. To remove any theme, exclude from here.
     themes: ['light', 'dark', 'corporate'],
-    
     // Custom theme
     customTheme: {
       primary: '#fc055b',
