@@ -20,7 +20,7 @@ import {
   setupHotjar,
   tooManyRequestError,
   sanitizeConfig,
-  skeleton,
+  // skeleton,
 } from '../helpers/utils';
 import { HelmetProvider } from 'react-helmet-async';
 import PropTypes from 'prop-types';
@@ -206,7 +206,16 @@ const GitProfile = ({ config }) => {
                 </div>
               </div>
               <footer className="p-4 footer bg-base-200 text-base-content footer-center">
-                <div className="card compact bg-base-100 shadow">
+                <a
+                  href="https://github.com/arifszn/gitprofile"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <p className="font-mono text-sm">
+                    Made with <span className="text-primary">GitProfile</span>
+                  </p>
+                </a>
+                {/* <div className="card compact bg-base-100 shadow">
                   <a
                     className="card-body"
                     href="https://github.com/arifszn/gitprofile"
@@ -218,14 +227,14 @@ const GitProfile = ({ config }) => {
                         skeleton({ width: 'w-52', height: 'h-6' })
                       ) : (
                         <p className="font-mono text-sm">
-                          Made with{' '}
+                          Made with
                           <span className="text-primary">GitProfile</span> and
                           ❤️
                         </p>
                       )}
                     </div>
                   </a>
-                </div>
+                </div> */}
               </footer>
             </Fragment>
           )
