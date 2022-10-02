@@ -35,12 +35,9 @@ const About = ({ loading }) => {
                   renderSkeleton()
                 ) : (
                   <div className="text-base-content text-opacity-60">
-                    {/* <span className="relative border-l border-base-300 border-opacity-30 my-2 mx-4">4th-year student at the CS faculty at the Technion, enrolled in the Big Data Analysis Program. The focus of the program is to expand understanding int the fields of ML, Deep Learning, Image Processing, and NLP. Previously held a software developer position at GE Healthcare. During that internship, I was writing utility scripts in Python for easier integration and build, parallelizing testing components, and designing a web application (Vue.js). Before the Technion, I was a FullStack web developer (mainly Angular Framework) in the IAF OFEK-324 unit for three years. During that time I had the opportunity to develop monitoring and management systems, one of which was awarded a citation by OFEK-324 commander. </span> */}
-                    {/* <span className="relative border-l border-base-300 border-opacity-30 my-2 mx-4">
-                      </span> */}
                     4th-year student at the CS faculty at the Technion, enrolled
                     in the Big Data Analysis Program. The focus of the program
-                    is to expand understanding int the fields of ML, Deep
+                    is to expand understanding in the fields of ML, Deep
                     Learning, Image Processing, and NLP. Previously held a
                     software developer position at GE Healthcare. During that
                     internship, I was writing utility scripts in Python for
