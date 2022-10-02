@@ -23,10 +23,8 @@ const config = {
     phone: '',
     email: 'ido.frankel@gmail.com',
   },
-  skills: [
-    'Python', 'C++', 'JS', 'SQL', 'Angular Framework', 'Git',
-  ],
-  experiences:  [
+  skills: ['Python', 'C++', 'JS', 'SQL', 'Angular Framework', 'Git'],
+  experiences: [
     {
       company: 'GE Healthcare',
       position: 'Software intern',
@@ -77,11 +75,7 @@ const config = {
     hideAvatarRing: false,
 
     // Available themes. To remove any theme, exclude from here.
-    themes: [
-      'light',
-      'dark',
-      'corporate'
-    ],
+    themes: ['light', 'dark', 'corporate'],
 
     // Custom theme
     customTheme: {
