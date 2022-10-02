@@ -99,12 +99,12 @@ const Details = ({ profile, loading, social, github }) => {
                   }
                 />
               )}
-              <ListItem
+              {/* <ListItem
                 icon={<AiFillGithub className="mr-2" />}
                 title="GitHub:"
                 value={github.username}
                 link={`https://github.com/${github.username}`}
-              />
+              /> */}
               {social?.twitter && (
                 <ListItem
                   icon={<SiTwitter className="mr-2" />}
