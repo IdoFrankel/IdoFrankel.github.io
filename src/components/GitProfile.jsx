@@ -8,8 +8,8 @@ import Details from './details';
 import Skill from './skill';
 import Experience from './experience';
 import Education from './education';
-import Project from './project';
-import Blog from './blog';
+// import Project from './project';
+// import Blog from './blog';
 import About from './about'
 
 import {
