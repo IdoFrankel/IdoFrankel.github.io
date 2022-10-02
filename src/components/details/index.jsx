@@ -1,6 +1,6 @@
 import { MdLocationOn, MdMail } from 'react-icons/md';
 import {
-  AiFillGithub,
+  // AiFillGithub,
   AiFillInstagram,
   AiFillMediumSquare,
 } from 'react-icons/ai';
@@ -55,6 +55,8 @@ const companyLink = (company) => {
 };
 
 const Details = ({ profile, loading, social, github }) => {
+  let github2 = github;
+  github = github2;
   const renderSkeleton = () => {
     let array = [];
     for (let index = 0; index < 4; index++) {
