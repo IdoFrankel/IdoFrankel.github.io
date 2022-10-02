@@ -37,7 +37,9 @@ const GitProfile = ({ config }) => {
   const [theme, setTheme] = useState(null);
   const [loading, setLoading] = useState(true);
   const [profile, setProfile] = useState(null);
+  // const [repo, setRepo] = useState(null);
   const [repo, setRepo] = useState(null);
+  console.log(repo);
 
   useEffect(() => {
     if (sanitizedConfig) {
@@ -173,26 +175,22 @@ const GitProfile = ({ config }) => {
                         loading={loading}
                         skills={sanitizedConfig.skills}
                       />
-
                     </div>
                   </div>
                   <div className="lg:col-span-2 col-span-1">
                     <div className="grid grid-cols-1 gap-6">
-                    
-                    <About 
-                      loading={loading}
-                    />
-                   
-                    <Experience
+                      <About loading={loading} />
+
+                      <Experience
                         loading={loading}
                         experiences={sanitizedConfig.experiences}
                       />
-                    <Education
+                      <Education
                         loading={loading}
                         education={sanitizedConfig.education}
                       />
                     </div>
-                    
+
                     {/* <Project
                         repo={repo}
                         loading={loading}
@@ -204,7 +202,6 @@ const GitProfile = ({ config }) => {
                         googleAnalytics={sanitizedConfig.googleAnalytics}
                         blog={sanitizedConfig.blog}
                       /> */}
-
                   </div>
                 </div>
               </div>
