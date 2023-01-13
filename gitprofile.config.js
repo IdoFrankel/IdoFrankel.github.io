@@ -34,7 +34,7 @@ const config = {
     {
       company: 'Ofek 324 unit -IAF',
       position: 'Fullstack Web Developer',
-      from: '2017',
+      from: '2018',
       to: ' July 2020',
     },
   ],
