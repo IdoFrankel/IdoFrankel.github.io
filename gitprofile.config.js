@@ -41,7 +41,7 @@ const config = {
   education: [
     {
       institution: 'Technion - Israel Institute of Technology',
-      degree: 'B.S in Computer Science',
+      degree: 'B.Sc in Computer Science',
       from: '2020',
       to: 'current',
     },
